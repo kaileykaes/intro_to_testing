@@ -8,4 +8,8 @@ class Mod
     @description = description
     @students = []
   end  
+
+  def add_student(student)
+    @students << student
+  end
 end
